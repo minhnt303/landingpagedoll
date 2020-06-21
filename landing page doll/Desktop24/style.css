@@ -1,0 +1,351 @@
+  
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Asap !important;
+}
+
+/* start header */
+
+.header{
+    width: 100%;
+    display: flex;
+}
+.logo {
+    width: 20%;
+    padding-top: 10px;
+}
+.logo img {
+   text-align: center;
+   width: 90px;
+}
+.header-link {
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.header-link ul{
+    list-style: none;
+}
+.header-link ul li{
+    padding-left: 15px;
+    padding: 10px;
+    margin-right: 20px;
+}
+.header-link ul li a{
+    font-size: 18px;
+    color: #2D474D;
+    font-family: Roboto;
+}
+.header-link ul li a:hover{
+    text-decoration: none;
+}
+.header-link-list{
+    width: 80%;
+    display: flex;
+}
+.header-icon {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header-icon-item {
+    margin-right: 22px;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+.header-icon-item a{
+    color: #12282D;
+}
+/* end header */
+
+/* start banner */
+.banner-24 {
+    margin-top: 10px;
+    width: 100%;
+}
+.banner-24 img {
+    width: 100%;
+    height: 550px !important;
+}
+.mySlides {
+    display: none;
+}
+.bottom-left-area-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 40px;
+    width: 70%;
+    margin-top: -40px;
+}
+.carousel-indicators div{
+    width: 109px !important;
+    background-color: #102F36 !important;
+    height: 4px !important;   
+    margin-right: 8px !important;
+    opacity: 0.3 !important;
+}
+.bottom-left-area-right .active{
+    background-color: #102F36;
+    opacity: 1;
+}
+.carousel-indicators .active{
+    background-color: #102F36 !important;
+    width: 109px !important;
+    height: 4px !important;  
+    opacity: 1 !important;
+}
+/* end banner */
+
+/* start slideshow */
+.limit-edittion {
+    width: 100%;
+    background-color: #102F36;
+    margin-top: -20px;
+    padding-bottom: 50px;
+}
+.limit-edittion-title h2{
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#items {
+    width: 90%;
+    margin: 0px auto;
+}
+#items p {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 20px;
+}
+.slick-slide {
+    margin: 10px
+}
+.slick-slide img {
+    width: 100%;
+    height: 360px;
+}
+
+.slick-prev{
+     left: -35px !important;
+     width: 30px !important;
+     height: 50px !important;
+     
+ }
+.slick-next {
+     right: -35px !important;
+     width: 30px !important;
+     height: 50px !important;
+     
+ }
+/* end slideshow */
+
+/* start product */
+.contain-product{
+    width: 100%;
+    margin-top: 100px;
+    padding-left: 78px !important;
+    padding-right: 50px !important;
+}
+.product-desktop24 {
+    width: 100%;
+}
+.product-desktop24-detail {
+    width: 100%;
+}
+.img-product24 {
+    width: 100%;
+    height: 440px;
+    background-image: url('../image/doll-3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+.info-product24 {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: rgba(196, 196, 196, 0.5);
+    color: white;
+    text-align: center;
+    font-size: 22px;
+}
+.img-product24-two {
+    width: 100%;
+    height: 440px;
+    background-image: url('../image/doll-4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+}
+.button-product-24{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.button-product-24 button {
+    color: white;
+    width: 240px;
+    height: 40px;
+    font-weight: bold;
+    background-color: #12282D;
+    border-radius: 0;
+    border-radius: 20px;
+}
+.button-product-24 button:hover{
+    color: white;
+}
+.btn:focus {
+    color: white !important;
+    outline: none !important;
+}
+
+/* end product */
+
+/* start about me */
+.about-me{
+    margin-top: 80px;
+    width: 100%;
+}
+.title-about {
+    width: 100%;
+    height: 550px;
+    background-color: rgba(215, 223, 233, 0.3);;
+}
+.title-about-detail {
+    margin-top: 90px;
+    padding-left: 70px;
+    padding-right: 100px;
+}
+.img-about img{
+    width: 100%;
+    height: 550px;
+}
+/* .flower-image {
+    position: absolute;
+    
+}
+.flower-image img {
+    width: 400px;
+} */
+.button-about-24 {
+    margin-top: 30px;
+    display: flex;
+}
+.title-about-detai h2{
+    font-weight: bold;
+    color: #102F36;
+}
+.title-about-detail p{
+    line-height: 30px;
+    font-size: 16px;
+    font-family: Asap;
+}
+
+.button-about-24 button {
+    color: white;
+    width: 240px;
+    height: 40px;
+    font-weight: bold;
+    background-color: #12282D;
+    border-radius: 0;
+    border-radius: 20px;
+}
+/* end about me */
+
+/* start list product */
+.list-product-24 {
+    width: 100%;
+    margin-top: 80px;
+}
+.title-list-product-24{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #102F36;
+    padding-bottom: 30px;
+}
+.list-product-detail-24 {
+    width: 100%;
+}
+.list-product-detail-24 img{
+    width: 100%;
+}
+.list-product-detail-24 h4{
+    text-align: center;
+    font-weight: bold;
+    color: #102F36;
+    padding: 8px 0px;
+}
+.list-product-detail-24 p{
+    color: rgba(126, 133, 142, 0.7);
+}
+/* end list product*/
+
+/* start slogan */
+.footer-slogan{
+    margin-top: 80px;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(215, 223, 233, 0.3);
+    display: flex;
+    justify-content: center;
+}
+.title-footer-slogan {
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 30px;
+    color: #102F36;
+    font-weight: bold;
+    font-size: 18px;
+}
+/* end slogan */
+
+/* start footer */
+.footer{
+    width: 100%;
+    height: 250px;
+    background-color: #2D474D;
+    color: white;
+}
+.contain-detail{
+    padding-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-detail img{
+    padding-top: 12px;
+    width: 120px;
+    height: 100px;
+}
+.info-detail h4{
+    font-weight:bold;
+    padding-bottom: 10px;
+}
+.info-detail ul{
+    list-style: none;
+}
+.info-detail ul li{
+    padding-bottom: 7px;
+}
+.info-detail ul li a{
+   font-size: 16px;
+}
+
+/*end footer */
+
+

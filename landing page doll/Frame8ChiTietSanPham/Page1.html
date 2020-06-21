@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="icon" href="../Image/SharedImage/Logo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Page1.css">
+    <script src="https://use.fontawesome.com/2582abf20b.js"></script>
+    <title>Myou Doll</title>
+  </head>
+  <body>
+    <div class="header">
+        <div class="logo">
+            <img src="../Image/SharedImage/Logo.png" alt="logo">
+        </div>
+        <div class="header-link">
+            <ul class="header-link-list">
+                <li class="list-link-item">
+                  <a href="/trang-chu">Trang Chủ</a>
+                </li>
+                <li class="list-link-item">
+                  <a href="/bup-be">Búp Bê</a>
+                </li>
+                <li class="list-link-item">
+                  <a href="/bo-phan-roi">Bộ Phận Rời</a>
+                </li>
+                <li class="list-link-item">
+                  <a href="/phu-kien">Phụ Kiện</a>
+                </li>
+                <li class="list-link-item">
+                  <a href="/ve-chung-toi">Về chúng tôi</a>
+                </li>
+            </ul>
+        </div>
+        <div class="header-icon">
+            <div class="header-icon-item">
+                <a href="/"><i class="fa fa-search"></i></a>
+            </div>
+            <div class="header-icon-item">
+                <a href="/"><i class="fa fa-user"></i></a>
+            </div>
+            <div class="header-icon-item">
+                <a href="/"><i class="fa fa-shopping-cart"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="left-image">
+        <img src="../Image/SharedImage/ImageFlower.png" alt="logo">
+    </div>
+    <div class="center-text">
+        <div class="center-text-header">Victorian Circus Maya</div>
+        <div style="border-bottom: 3px solid #ffffff;
+        width: 70%;margin-top: 15px;
+    margin-bottom: 20px;"></div>
+        <div style="display: flex;margin-bottom: 15px;">
+            <div style="width: 50%;">
+                <span class="bigText">Giá: 7.500.000 đ</span>
+            </div>
+            <div>
+                <span class="bigText">(Trộn bộ: 15 000 000 đ)</span>
+            </div>
+        </div>
+        <div style="display: flex;margin-bottom: 15px;">
+            <div style="width: 50%;">
+                <span>Chiều cao: 58cm</span>
+            </div>
+            <div>
+                <span>Đường kính đầu：21cm</span>
+            </div>
+        </div>
+        <div style="display: flex;margin-bottom: 15px;">
+            <div style="width: 50%;">
+                <span>Cỡ mắt: 16mm</span>
+            </div>
+            <div>
+                <span>Đường kính cổ：7cm</span>
+            </div>
+        </div>
+        <div style="display: flex;margin-bottom: 15px;">
+            <div style="width: 50%;">
+                <span>Ngày sản xuất: 12/4/2020</span>
+            </div>
+        </div>
+        <div style="display: flex;margin-bottom: 15px;">
+            <div style="width: 50%;">
+                <span>Màu da: <span class="disableText">Trắng,</span> <span class="disableText">Hồng,</span> Mặc định</span>
+            </div>
+        </div>
+        <div style="display: flex;">
+            <div style="width: 20%;">
+                <span>Phụ kiện:</span>
+            </div>
+            <div style="display: grid;">
+                <span class="disableText">Trang điểm 700.000 đ,</span>
+                <span>Tóc 3.000.000  đ</span>
+                <span>Trang phục 4.000.000 đ </span>
+                <span class="disableText">Giày 1.000.000 đ</span>
+            </div>
+        </div>
+        <div style="width: 288px;border-bottom: 2px solid #2D474D;"></div>
+        <div style="margin-top: 15px;">
+            <div>
+                <span class="bigText">Tổng cộng: 13.000.000 đ</span>
+            </div>
+        </div>
+        <br/>
+        <div style="display: flex;">
+            <a class="btn btn-sm btn-info">THÊM VÀO GIỎ HÀNG</a>
+        </div>
+        <i>Freeship đối với Hóa đơn Từ 5 Triệu đồng trở lên</i>
+    </div>
+    <div class="left-image-area">
+        <div style="display: flex;" class="left-image-area-display">
+            <img src="../Image/SharedImage/leftarrowicon.png" alt="logo" class="iconarrow" style="margin-right: 10%;cursor: pointer;" onclick="changeImage(4)">
+            <img src="../Image/BigImage/detailframe8-1.png" alt="logo" class="bigleftImage">
+            <img src="../Image/SharedImage/arrow_forward_green.png" alt="logo" class="iconarrow" style="margin-left: 10%;cursor: pointer;" onclick="changeImage(2)">
+        </div>
+        <div class="gallareyImage" style="display: flex;">
+            <div onclick="changeCurrentImage(1)" style="cursor: pointer;"><img src="../Image/SmallImage/sframe5-1.png" alt="logo"></div>
+            <div onclick="changeCurrentImage(2)" style="cursor: pointer;"><img src="../Image/SmallImage/sframe5-2.png" alt="logo"></div>
+            <div onclick="changeCurrentImage(3)" style="cursor: pointer;"><img src="../Image/SmallImage/sframe5-3.png" alt="logo"></div>
+            <div onclick="changeCurrentImage(4)" style="cursor: pointer;"><img src="../Image/SmallImage/sframe5-4.png" alt="logo"></div>
+        </div>
+    </div>
+    <div class="yellow-area">
+        <div style="text-align: right; position: absolute;right: 15%;">
+            <div class="yellow-area-square"></div>
+        </div>
+        <div class="yellow-area-content-header">Victorian Circus Maya</div>
+        <div class="yellow-area-content row">
+            <div class="col-sm-6">
+                <img src="../Image/BigImage/frame8square1.png" alt="logo" class="yellow-area-content-header-img">
+            </div>
+            <div class="col-sm-6 yellow-area-content-right">
+                <span>Maya</span>
+                <p>Đặc điểm: Ngây thơ, mộng mơ</p>
+                <p>Nhắc tới cô em út Maya, ai trong đoàn xiếc cũng sẽ nghĩ ngay tới một cô bé đáng yêu sở hữu vẻ đẹp mong manh, dễ vỡ cần được bao bọc, che chở</p>
+                <div class="yellow-area-content-right-img">
+                    <img src="../Image/BigImage/frame8square2.png" alt="logo">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blue-area">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="blue-area-square-img-1">
+                    <img src="../Image/BigImage/frame8square3.png" alt="logo">
+                </div>
+                <div class="blue-area-square-img-2">
+                    <img src="../Image/BigImage/frame8square4.png" alt="logo">
+                </div>
+                <div class="blue-area-square"></div>
+            </div>
+            <div class="col-sm-6">
+                <div class="blue-area-square2-img-1">
+                    <img src="../Image/BigImage/frame8square5.png" alt="logo">
+                </div>
+                <div class="blue-area-square2"></div>
+            </div>
+        </div>
+        <div class="blue-area-content row">
+            <div class="col-sm-6 blue-area-content-right">
+                <div class="blue-area-content-header">Búp bê bao gồm</div>
+                <p>Thêm khớp trên cổ để tạo tư thế nhìn ngây thơ<br/>
+                    Thiết kế tay có khả năng cầm dù<br/>
+                    Công thức nhuộm tóc mới tạo độ chân thật và bộ tóc có thể tháo rời theo phong cách Victoria<br/>
+                    Bộ trang phục với nhiều lớp áo được làm thủ công<br/>
+                    Có chức năng tháo rời, thay đổi trang phục theo mục đích cá nhân<br/>
+                    Bộ trang phục gồm: Corset, áo, quần, váy xếp tầng và vớ<br/>
+                    Giày phong cách Victoria cũng được làm bằng tay<br/>
+                    </p>
+            </div>
+            <div class="col-sm-6">
+                <div class="blue-area-content-square1"></div>
+                <div style="z-index: 100;">
+                    <img src="../Image/BigImage/frame8square6.png" alt="logo" class="blue-area-content-header-img">
+                </div>
+            </div>
+        </div>
+        
+        <div class="blue-area-content2 row">
+            <div class="col-sm-6">
+                <div style="z-index: 100;margin-bottom: 100px;">
+                    <img src="../Image/BigImage/frame8square7.png" alt="logo" class="blue-area-content-header-img2">
+                </div>
+                <div>
+                    <div class="blue-area-content-square3"></div>
+                    <div style="z-index: 100;">
+                        <img src="../Image/BigImage/frame8square10.png" alt="logo" class="blue-area-content-header-img5">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 blue-area-content-right2">
+                <div class="blue-area-content-header">Bảo quản búp bê:</div>
+                <p>Búp bê có khả năng sử dựng lên tới rất nhiều năm vì chúng được chế tạo theo cơ chế bằng sứ và thép<br/>
+                Màu sơn được sử dụng kết dính với sứ khiến búp bê không bị phai, ố hoặc trầy xước dưới sự chăm sóc và vệ sinh hợp lý<br/>
+                Dây nối khớp búp bê được làm bằng thép, do đó hạn chế ngâm búp bê trong nước.</p>
+                <div>
+                    <img src="../Image/BigImage/frame8square8.png" alt="logo" class="blue-area-content-header-img3">
+                    <img src="../Image/BigImage/frame8square9.png" alt="logo" class="blue-area-content-header-img4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="list-product-area">
+        <h2>Sản Phẩm Liên Quan</h2>
+        <div class="list-product-item-area row">
+            <div class="product-item col-sm-3">
+                <img src="../Image/SmallImage/listproduct1.png" alt="logo-footer">
+                <div class="product-item-detail">
+                    <span>Victorian Circus Agata</span>
+                    <h6>15.000.000 đ</h6>
+                </div>
+            </div>
+            <div class="product-item col-sm-3">
+                <img src="../Image/SmallImage/listproduct2.png" alt="logo-footer">
+                <div class="product-item-detail">
+                    <span>Victorian Circus Alice</span>
+                    <h6>15.000.000 đ</h6>
+                </div>
+            </div>
+            <div class="product-item col-sm-3">
+                <img src="../Image/SmallImage/listproduct3.png" alt="logo-footer">
+                <div class="product-item-detail">
+                    <span>Victorian Circus Strawberry</span>
+                    <h6>15.000.000 đ</h6>
+                </div>
+            </div>
+            <div class="product-item col-sm-3">
+                <img src="../Image/SmallImage/listproduct4.png" alt="logo-footer">
+                <div class="product-item-detail">
+                    <span>Sphinx Nude</span>
+                    <h6>12.500.000 đ</h6>
+                </div>
+            </div>
+            <div class="product-item col-sm-3">
+                <img src="../Image/SmallImage/listproduct5.png" alt="logo-footer">
+                <div class="product-item-detail">
+                    <span>Fox Tail</span>
+                    <h6>2.500.000 đ</h6>
+                </div>
+            </div>
+            <div class="product-item col-sm-3">
+                <img src="../Image/SmallImage/listproduct6.png" alt="logo-footer">
+                <div class="product-item-detail">
+                    <span>Fairy Lily</span>
+                    <h6>12.500.000 đ</h6>
+                </div>
+            </div>
+            <div class="product-item col-sm-3">
+                <img src="../Image/SmallImage/listproduct7.png" alt="logo-footer">
+                <div class="product-item-detail">
+                    <span>Eva</span>
+                    <h6>10.000.000 đ</h6>
+                </div>
+            </div>
+            <div class="product-item col-sm-3">
+                <img src="../Image/SmallImage/listproduct8.png" alt="logo-footer">
+                <div class="product-item-detail">
+                    <span>Acuariana</span>
+                    <h6>10.000.000 đ</h6>
+                </div>
+            </div>
+
+            
+            <div class="product-pageding col-sm-12">
+                <span>
+                    <img src="../Image/SharedImage/arrow_back.png" alt="logo-footer">
+                </span>
+                <span class="active">1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>5</span>
+                <span>6</span>
+                <span>7</span>
+                <span>8</span>
+                <span>9</span>
+                <span>...</span>
+                <span>
+                    <img src="../Image/SharedImage/arrow_forward.png" alt="logo-footer">
+                </span>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container contain-detail">
+            <div class="logo-detail">
+                <img src="../Image/SharedImage/WhiteLogo.png" alt="logo-footer">
+            </div>
+            <div class="info-detail">
+                <h4>
+                    Trang Chủ
+                </h4>
+                <ul>
+                    <li><a>Bộ Sưu Tập Mới</a></li>
+                    <li><a>Sản phẩm</a></li>
+                    <li><a>Thông tin</a></li>
+                </ul>
+            </div>
+            <div class="info-detail">
+                <h4>
+                    Sản Phẩm
+                </h4>
+                <ul>
+                    <li><a>Búp bê</a></li>
+                    <li><a>Bộ phận tời</a></li>
+                    <li><a>Phụ kiện</a></li>
+                </ul>
+            </div>
+            <div class="info-detail">
+                <h4>
+                    Thông tin
+                </h4>
+                <ul>
+                    <li><a>Sự kiện</a></li>
+                    <li><a>Triển lãm</a></li>
+                    <li><a>Ưu đãi</a></li>
+                </ul>
+            </div>
+            <div class="info-detail">
+                <h4>
+                    Về Chúng Tôi
+                </h4>
+                <ul>
+                    <li><a>MYOU Doll là gì?</a></li>
+                    <li><a>Liên hệ</a></li>
+                    <li><a>Chính sách bảo hành</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+    <script>
+        function changeCurrentImage(number){
+            var nextnumber = 0;
+            var lastnumber = 0;
+            if(number == 1){
+                nextnumber = 2;
+                lastnumber = 4;
+            }
+            else if(number == 2){
+                nextnumber = 3;
+                lastnumber = 1;
+            }
+            else if(number == 3){
+                nextnumber = 4;
+                lastnumber = 2;
+            }
+            else if(number == 4){
+                nextnumber = 1;
+                lastnumber = 3;
+            }
+            var html = `
+                <img src="../Image/SharedImage/leftarrowicon.png" alt="logo" class="iconarrow" style="margin-right: 10%;cursor: pointer;" onclick="changeImage(${lastnumber})">
+                <img src="../Image/BigImage/detailframe8-${number}.png" alt="logo" class="bigleftImage">
+                <img src="../Image/SharedImage/arrow_forward_green.png" alt="logo" class="iconarrow" style="margin-left: 10%;cursor: pointer;" onclick="changeImage(${nextnumber})">
+            `;
+            $('.left-image-area-display').html(html);
+            console.log(number);
+        }
+        function changeImage(number){
+            var nextnumber = 0;
+            var lastnumber = 0;
+            if(number == 1){
+                nextnumber = 2;
+                lastnumber = 4;
+            }
+            else if(number == 2){
+                nextnumber = 3;
+                lastnumber = 1;
+            }
+            else if(number == 3){
+                nextnumber = 4;
+                lastnumber = 2;
+            }
+            else if(number == 4){
+                nextnumber = 1;
+                lastnumber = 3;
+            }
+            var html = `
+                <img src="../Image/SharedImage/leftarrowicon.png" alt="logo" class="iconarrow" style="margin-right: 10%;cursor: pointer;" onclick="changeImage(${lastnumber})">
+                <img src="../Image/BigImage/detailframe8-${number}.png" alt="logo" class="bigleftImage">
+                <img src="../Image/SharedImage/arrow_forward_green.png" alt="logo" class="iconarrow" style="margin-left: 10%;cursor: pointer;" onclick="changeImage(${nextnumber})">
+            `;
+            $('.left-image-area-display').html(html);
+            console.log(number);
+        }
+    </script>
+  </body>
+</html>
