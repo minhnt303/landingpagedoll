@@ -28,6 +28,12 @@
 
 <body>
     <input id="idPage" value="2" style="display: none;"></input>
+    <div id="SlideShowButton">
+        <a class="btn btn-info btn-sm" onclick="closeSlide()" id="closeButton"><i class="fa fa-minus"></i></a>
+        <a class="btn btn-info btn-sm" onclick="preSlide()" id="preButton"><i class="fa fa-arrow-left"></i></a>
+        <a class="btn btn-info btn-sm" onclick="pauseSlide()" id="pauseButton"><i class="fa fa-pause"></i></a>
+        <a class="btn btn-info btn-sm" onclick="nextSlide()" id="nextButton"><i class="fa fa-arrow-right"></i></a>
+    </div>
     <div>
         <div class="container header">
             <div class="logo">
